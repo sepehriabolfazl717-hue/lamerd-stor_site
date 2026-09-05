@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>درباره ما | بازرگانی خلیج استور</title>
+  <meta name="description" content="آشنایی با تاریخچه، رسالت و تضمین‌های فروشگاه آنلاین تخصصی لوازم خانگی خلیج استور">
+  <meta property="og:title" content="درباره خلیج استور | مرجع تخصصی لوازم خانگی">
+
+  <!-- Google Fonts: Vazirmatn & Material Symbols -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#00355f",
+            "primary-container": "#0f4c81",
+            "on-primary": "#ffffff",
+            "on-primary-container": "#8ebdf9",
+            "secondary": "#ab3500",
+            "secondary-container": "#fe6a34",
+            "on-secondary": "#ffffff",
+            "on-secondary-container": "#5d1900",
+            "tertiary": "#003750",
+            "tertiary-container": "#004f71",
+            "surface": "#f8f9ff",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-low": "#eff4ff",
+            "surface-container": "#e5eeff",
+            "surface-container-high": "#dce9ff",
+            "surface-container-highest": "#d3e4fe",
+            "on-surface": "#0b1c30",
+            "on-surface-variant": "#42474f",
+            "outline": "#727780",
+            "outline-variant": "#c2c7d1",
+            "background": "#f8f9ff",
+            "on-background": "#0b1c30"
+          },
+          fontFamily: {
+            sans: ['Vazirmatn', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Global Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-background font-sans text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+
+  <!-- TOP HEADER -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,53,95,0.06)] border-b border-surface-container">
+    <div class="max-w-[1360px] mx-auto px-4 lg:px-6 flex flex-col justify-between py-2">
+      <div class="flex items-center justify-between gap-4 h-16">
+        <a href="index.html" class="flex items-center gap-2 hover:opacity-90 transition-opacity">
+          <img alt="لوگوی خلیج استور" class="h-9 w-auto object-contain" referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVgznMmjuEkm2EmfO7qiM18EMnFMqopjse4MQlphvinLCSUIP0GYyPNzl_Rgz5K0l7M8cEal2Zqe0pWbPvq1FRiiOfh83Xjci-6j--QUcb_v1Nfs8I44KWmh7JlQuaNyW9yAVot59N_Yl40W2e0skrI8p7EH_lw665jULZIkFrDg5fx73tSsC7vktTQDI39IceWRA0R9qFptDq28WIMoBl53MTIk2qarFXO66jhUbe1RciuSu6ozp9">
+          <div class="flex flex-col">
+            <span class="text-xl font-black text-primary tracking-tight">خلیج استور</span>
+            <span class="text-[11px] font-bold text-on-surface-variant -mt-1">مرجع تخصصی لوازم خانگی</span>
+          </div>
+        </a>
+
+        <div class="flex items-center gap-3">
+          <a href="https://t.me/ggjfjfujiuyfuuybot" target="_blank" rel="noopener noreferrer" class="hidden sm:flex items-center gap-1.5 py-1.5 px-3 rounded-lg bg-tertiary-container/10 hover:bg-tertiary-container/20 text-tertiary-container font-medium text-xs transition-colors">
+            <span class="material-symbols-outlined text-[18px]">send</span>
+            <span>پشتیبانی تلگرام</span>
+          </a>
+
+          <a href="cart.html" class="flex items-center gap-2 py-1.5 px-4 rounded-xl bg-primary text-on-primary hover:bg-primary-container transition-colors shadow-sm active:scale-95" data-path="cart">
+            <span class="material-symbols-outlined text-[20px]">shopping_basket</span>
+            <div class="flex flex-col items-start leading-none hidden lg:flex">
+              <span class="text-[10px] text-on-primary-container font-semibold">سبد خرید</span>
+              <span class="text-xs font-bold text-on-primary" data-cart-count data-with-label="true">۲ کالا</span>
+            </div>
+            <span class="flex lg:hidden items-center justify-center w-5 h-5 rounded-full bg-secondary-container text-on-secondary-container font-bold text-[11px]" data-cart-count>۲</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Categories Bar -->
+      <div class="flex items-center justify-between pt-1 pb-1 overflow-x-auto no-scrollbar border-t border-surface-container/60">
+        <nav class="flex items-center gap-2 whitespace-nowrap text-xs font-medium text-on-surface-variant">
+          <a href="index.html" class="hover:text-primary hover:bg-surface-container py-1.5 px-2.5 rounded-lg transition-colors">صفحه اصلی</a>
+          <a href="products.html" class="hover:text-primary hover:bg-surface-container py-1.5 px-2.5 rounded-lg transition-colors">همه محصولات</a>
+          <a href="products.html?cat=refrigerators" class="hover:text-primary hover:bg-surface-container py-1.5 px-2 rounded-lg transition-colors">یخچال و فریزر</a>
+          <a href="products.html?cat=tv" class="hover:text-primary hover:bg-surface-container py-1.5 px-2 rounded-lg transition-colors">تلویزیون</a>
+          <a href="products.html?cat=washing" class="hover:text-primary hover:bg-surface-container py-1.5 px-2 rounded-lg transition-colors">ماشین لباسشویی</a>
+          <a href="about.html" class="bg-primary-container text-on-primary font-bold py-1.5 px-2.5 rounded-lg transition-colors">درباره خلیج استور</a>
+          <a href="contact.html" class="hover:text-primary hover:bg-surface-container py-1.5 px-2.5 rounded-lg transition-colors">تماس با ما</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN ABOUT CONTENT -->
+  <main class="w-full pt-28 bg-background min-h-screen pb-16">
+    <div class="max-w-[1360px] mx-auto px-4 lg:px-6">
+
+      <!-- Hero Header -->
+      <section class="rounded-3xl bg-gradient-to-r from-primary via-primary-container to-primary text-on-primary p-8 sm:p-12 mb-10 shadow-lg text-center relative overflow-hidden">
+        <div class="max-w-3xl mx-auto relative z-10 flex flex-col items-center">
+          <span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold mb-3 shadow">بیش از ۱۵ سال سابقه درخشان در بازرگانی جنوب</span>
+          <h1 class="text-2xl sm:text-4xl font-black mb-4">داستان و تعهد خلیج استور</h1>
+          <p class="text-xs sm:text-sm text-on-primary-container leading-relaxed">
+            از قلب بنادر نیلگون جنوب ایران تا آشپزخانه شما؛ ما متعهدیم بهترین لوازم خانگی دنیا را با کمترین حاشیه سود، گارانتی ۱۰۰٪ معتبر شرکتی و سریع‌ترین روش تحویل به دست شما برسانیم.
+          </p>
+        </div>
+      </section>
+
+      <!-- Key Metrics Strip -->
+      <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+        <div class="bg-surface-container-lowest rounded-2xl p-5 text-center shadow-sm border border-surface-container">
+          <span class="text-2xl sm:text-3xl font-black text-primary block mb-1">۵۰,۰۰۰+</span>
+          <span class="text-xs font-medium text-on-surface-variant">سفارش موفق در سراسر کشور</span>
+        </div>
+        <div class="bg-surface-container-lowest rounded-2xl p-5 text-center shadow-sm border border-surface-container">
+          <span class="text-2xl sm:text-3xl font-black text-secondary block mb-1">۴۲۰+</span>
+          <span class="text-xs font-medium text-on-surface-variant">شهر و روستای تحت پوشش ارسال</span>
+        </div>
+        <div class="bg-surface-container-lowest rounded-2xl p-5 text-center shadow-sm border border-surface-container">
+          <span class="text-2xl sm:text-3xl font-black text-primary block mb-1">۹۸.۴٪</span>
+          <span class="text-xs font-medium text-on-surface-variant">رضایت ثبت‌شده خریداران</span>
+        </div>
+        <div class="bg-surface-container-lowest rounded-2xl p-5 text-center shadow-sm border border-surface-container">
+          <span class="text-2xl sm:text-3xl font-black text-emerald-600 block mb-1">۲۴ ماه</span>
+          <span class="text-xs font-medium text-on-surface-variant">ضمانت رسمی کلیه محصولات</span>
+        </div>
+      </section>
+
+      <!-- Detailed Story -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12">
+        <div class="lg:col-span-8 bg-surface-container-lowest rounded-3xl p-8 shadow-sm border border-surface-container flex flex-col gap-5 text-xs sm:text-sm text-on-surface-variant leading-relaxed">
+          <h2 class="text-lg sm:text-xl font-bold text-on-surface pb-3 border-b border-surface-container">
+            چرا خلیج استور مرجع مطمئن خرید لوازم خانگی است؟
+          </h2>
+          <p>
+            مجموعه بازرگانی <strong>خلیج استور</strong> با هدف حذف واسطه‌های غیرضروری و ارتباط مستقیم مصرف‌کنندگان با واردکنندگان و کارخانجات تولیدی لوازم خانگی پایه‌گذاری شد. در بازاری که دغدغه اصالت فیزیکی کالا، پلمپ بودن کارتن و گارانتی معتبر از بزرگ‌ترین نگرانی‌های خریداران به شمار می‌آید، خلیج استور تمام این استانداردها را بازتعریف کرده است.
+          </p>
+          <p>
+            تیم کارشناسی ما قبل از بارگیری هر سفارش، عکس و فیلم اختصاصی از برچسب‌های اصالت، پلاک فنی دستگاه و وضعیت سلامت فیزیکی کارتن تهیه کرده و از طریق تلگرام برای خریدار محترم ارسال می‌نماید.
+          </p>
+          <p>
+            ما بر این باوریم که خرید لوازم خانگی سرمایه‌گذاری برای آرامش یک خانواده است؛ از این رو پشتیبانی ۲۴ ساعته در هفت روز هفته در کنار شماست.
+          </p>
+        </div>
+
+        <div class="lg:col-span-4 flex flex-col gap-4">
+          <!-- Guarantees Card -->
+          <div class="bg-surface-container-low rounded-3xl p-6 border border-surface-container flex flex-col gap-3">
+            <h3 class="font-bold text-sm text-on-surface flex items-center gap-2">
+              <span class="material-symbols-outlined text-secondary text-[20px]">shield</span>
+              اصول تغییرناپذیر خلیج استور
+            </h3>
+            <ul class="flex flex-col gap-2.5 text-xs text-on-surface-variant">
+              <li class="flex items-start gap-2">
+                <span class="material-symbols-outlined text-emerald-600 text-[18px] shrink-0">done</span>
+                <span>تضمین بی قید و شرط اصالت کالا و قطعات اورجینال</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="material-symbols-outlined text-emerald-600 text-[18px] shrink-0">done</span>
+                <span>بسته‌بندی ایمن پالت چوبی برای مسافت‌های طولانی</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="material-symbols-outlined text-emerald-600 text-[18px] shrink-0">done</span>
+                <span>امکان سفارش سریع در پیام‌رسان تلگرام بدون پیچیدگی</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="material-symbols-outlined text-emerald-600 text-[18px] shrink-0">done</span>
+                <span>مهلت تست و مرجوعی ۷ روزه کالا در صورت مغایرت</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Telegram CTA in About -->
+          <div class="bg-tertiary-container text-on-tertiary rounded-3xl p-6 shadow-md flex flex-col items-center text-center gap-3">
+            <span class="material-symbols-outlined text-[36px]">forum</span>
+            <h4 class="font-bold text-sm">ارتباط مستقیم با مدیریت بازرگانی</h4>
+            <p class="text-xs text-on-tertiary/80 leading-relaxed">جهت مشاوره خرید عمده، تجهیز جهیزیه یا استعلام اختصاصی با ما در تلگرام در ارتباط باشید.</p>
+            <a href="https://t.me/ggjfjfujiuyfuuybot" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-secondary-container text-on-secondary-container hover:bg-secondary hover:text-white font-bold text-xs transition-colors flex items-center justify-center gap-1.5 shadow">
+              <span class="material-symbols-outlined text-[18px]">send</span>
+              <span>شروع گفتگو در تلگرام</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-surface-container-low py-8 border-t border-surface-container">
+    <div class="max-w-[1360px] mx-auto px-4 lg:px-6 text-center text-xs text-on-surface-variant">
+      شرکت بازرگانی خلیج استور | فروشگاه آنلاین تخصصی لوازم خانگی © ۱۴۰۳
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
